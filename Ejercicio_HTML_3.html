@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercico HTML 3</title>
+</head>
+<body>
+
+	<div style="margin-left: 25px">
+		<h1><b>Reserva de sociedad</b></h1>
+		<p>Rellena el siguiente formulario para reservar la sociedad un día en concreto</p>
+	</div>
+
+	<div style="margin-left: 20px">
+		<fieldset style="border: solid; width: 500px; ">
+		<legend style="font-size: 17px"><b style=" margin-left: 5px"><u style="text-align: center;">Datos personales:</u></b></legend>
+
+			
+			<br>
+
+			<label style="margin-left: 5px">Nombre:</label> <input style="margin-left: 5px" type="text" name=""><br>
+			
+			<p style="margin-left: 5px">¿Eres socio?</p>
+			<input type="radio" name="socio" id="si" checked="">
+			<label for="si">Si, soy socio</label>
+			<input type="radio" name="socio" id="no">
+			<label for="no">No, no soy socio</label>
+			<br>
+			<br>
+
+		
+		</fieldset>
+
+		<br>
+
+		<fieldset style="border: solid; width: 500px;">
+
+		<legend style="font-size: 17px"><b style="margin-left: 5px;"><u>Datos de reserva</u></b></legend>
+
+			
+			<br>
+
+			<label style="margin-left: 5px;">Edad:</label><select style="margin-left: 5px">
+				
+					<option>Menor de 18</option>
+					<option>Mayor de 18, menor de 25</option>
+					<option>Mayor de 25, menor de 50</option>
+					<option>Mayor de 50, menor de 75</option>
+					<option>Mayor de 75</option>
+
+				</select>
+
+				<br>
+
+				<p style="margin-left: 5px">Seleccione la fecha y hora de reserva:</p>
+
+				<div style="margin-left: 5px;">
+					<input type="date" name="">
+					<input type="time" name="">
+				</div>
+
+				<br>
+
+				<div>
+					<textarea style="margin-left: 5px;">Comentario:</textarea>
+				</div>
+
+				<br>
+
+			
+		</fieldset>
+
+		<br>
+
+		<input style="margin-left: 16px" type="checkbox" name="" >Acepta las condiciones</input>
+
+		<br>
+		<br>
+
+		<input style="margin-left: 15px" type="submit" name="" value="ENVIAR">
+	</div>
+
+</body>
+</html>
